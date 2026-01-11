@@ -1,0 +1,44 @@
+#------------------#
+# IDEs and Editors #
+#------------------#
+
+# JetBrains
+.fleet
+.idea
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-*
+
+# Visual Studio Code
+.vscode
+
+# Zed
+.zed
+
+#-------------------#
+# Operating Systems #
+#-------------------#
+
+# External Drives
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+
+# MacOS
+/.DS_Store
+*.DS_Store
+
+# VIM
+.*.sw[a-p]
+
+#-------------------#
+#     Languages     #
+#-------------------#
+
+# Nix
+.direnv
