@@ -7,7 +7,7 @@
       inputs.nixpkgs-lib.follows = "nixpkgs";
     };
 
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    nixpkgs.url = "https://channels.nixos.org/nixos-unstable/nixexprs.tar.xz";
 
     treefmt-nix = {
       url = "github:numtide/treefmt-nix";
@@ -23,7 +23,7 @@
 
       # Per-system attributes.
       #
-      # This generates `name`.${system} attrsets in a convinent way.
+      # This generates `name`.${system} attribute sets in a convenient way.
       perSystem = {
         pkgs,
         system,
