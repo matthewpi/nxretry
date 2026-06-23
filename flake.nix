@@ -34,7 +34,7 @@
         # Configure the default devShell with common development dependencies.
         devShells.default = pkgs.mkShellNoCC {
           packages = with pkgs; [
-            go_1_25
+            go_1_26
             gofumpt
             gotools
           ];
