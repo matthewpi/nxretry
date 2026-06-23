@@ -62,7 +62,7 @@ type Retry interface {
 	// If a value of `0` is given, no override will be performed on the next
 	// iteration.
 	//
-	// Calling [Retry.Override] multiple times before an iteration if safe, but
+	// Calling [Retry.Override] multiple times before an iteration is safe, but
 	// only the value from the last call will be used.
 	//
 	// The value of [Retry.Attempt] will still be incremented and count towards
@@ -163,7 +163,7 @@ func (r *retry) delay() time.Duration {
 // If a value of `0` is given, no override will be performed on the next
 // iteration.
 //
-// Calling [Retry.Override] multiple times before an iteration if safe, but
+// Calling [Retry.Override] multiple times before an iteration is safe, but
 // only the value from the last call will be used.
 //
 // The value of [Retry.Attempt] will still be incremented and count towards
